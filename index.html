@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="COVE is a zero-shot and lightweight framework for highly consistent text-guided video editing, supporting videos of any length utilizing text-to-image pretrained diffusion models.">
+  <meta property="og:title" content="COVE: Unleashing the Diffusion Feature Correspondence for Consistent Video Editing"/>
+  <meta property="og:description" content="COVE is a zero-shot and lightweight framework for highly consistent text-guided video editing, supporting videos of any length utilizing text-to-image pretrained diffusion models."/>
+  <meta property="og:url" content="https://cove-video.github.io/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> -->
+
+
+  <meta name="twitter:title" content="COVE: Unleashing the Diffusion Feature Correspondence for Consistent Video Editing">
+  <meta name="twitter:description" content="COVE is a zero-shot and lightweight framework for highly consistent text-guided video editing, supporting videos of any length utilizing text-to-image pretrained diffusion models">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image"> -->
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Text2Image Video Editing, Stable Diffusion">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>COVE: Unleashing the Diffusion Feature Correspondence for Consistent Video Editing</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <link rel="stylesheet" href="static/css/glide.core.min.css">
+  <link rel="stylesheet" href="static/css/glide.theme.min.css">
+  <link rel="stylesheet" href="static/css/glide-custom.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+	    tex2jax: {
+	        inlineMath: [['$','$'], ['\\(','\\)']],
+	        processEscapes: true
+	    }
+	});
+    </script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="xtitle is-1 publication-title" style="    font-size: 200%; font-weight: 800;">COVE: Unleashing the Diffusion Feature Correspondence for Consistent Video Editing</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=HoKoCv0AAAAJ&hl=en" target="_blank">Jiangshan Wang</a><sup>1*</sup></span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=kwBR1ygAAAAJ&hl=en&oi=ao" target="_blank"> Yue Ma</a><sup>1*</sup></span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=2p6GCEEAAAAJ&hl=en&oi=ao" target="_blank"> Jiayi Guo</a><sup>1*</sup></span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=oakZP0cAAAAJ&hl=en&oi=ao" target="_blank"> Yicheng Xiao</a><sup>1</sup></span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=-P9LwcgAAAAJ&hl=en&oi=ao" target="_blank"> Gao Huang</a><sup>1✝</sup></span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=Xrh1OIUAAAAJ&hl=en&oi=ao" target="_blank"> Xiu Li</a><sup>1✝</sup></span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Tsinghua University</span>
+
+              <span class="author-block"></span><br><b>Arxiv Preprint.</b></span>
+              <span class="eql-cntrb"><small><br> <sup>*</sup>Contribute Equally; <sup>✝</sup>Corresponding Author</small></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                    <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="static/pdfs/COVE.pdf" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Supplementary PDF link -->
+              <!-- <span class="link-block">
+                <a href="supp/supp.html" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Supplementary</span>
+              </a> -->
+            <!-- </span> -->
+
+            <!-- Github link -->
+            <span class="link-block">
+              <a href="https://github.com/wangjiangshan0725/COVE" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code (Coming soon)</span>
+            </a>
+          </span>
+
+          <!-- <span class="link-block">
+            <a href="https://github.com/RehgLab/RAVE" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="fa fa-database"></i>
+            </span>
+            <span>Dataset (Coming soon)</span>
+          </a>
+        </span> -->
+
+          <!-- Huggingface link -->
+          <!-- <span class="link-block">
+            <a href="https://huggingface.co/spaces/ozgurkara/RAVE" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <img src="static/images/hf-logo.svg" alt="Huggingface logo" width="20" height="20">
+            </span>
+            <span>Demo</span>
+            </a>
+          </span> -->
+
+          <!-- ArXiv abstract Link -->
+          <span class="link-block">
+            <a href="https://arxiv.org/abs/2406.08850" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="ai ai-arxiv"></i>
+            </span>
+            <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Glider -->
+<!-- <div class="container" style="margin-bottom: 3rem;" id="container">
+  <div class="teaser">
+    <div class="glide" id="teaser-glide">
+      <div data-glide-el="track" class="glide__track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <video muted loop autoplay defaultMuted playsinline webkit-playsinline class="teaser-video-0">
+              <source src="static/teaser/wolf_final.mp4"  type="video/mp4"/>
+            </video>
+          </li>
+          <li class="glide__slide">
+            <video muted loop defaultMuted playsinline webkit-playsinline class="teaser-video-1">
+              <source src="static/teaser/train.mp4" type="video/mp4"/>
+            </video>
+          </li>
+          <li class="glide__slide">
+            <video muted loop defaultMuted playsinline webkit-playsinline class="teaser-video-2">
+              <source src="static/teaser/car-turn_final.mp4" type="video/mp4"/>
+            </video>
+          </li>
+          <li class="glide__slide">
+            <video muted loop defaultMuted playsinline webkit-playsinline class="teaser-video-3">
+              <source src="static/teaser/typing-new.mp4" type="video/mp4"/>
+            </video>
+          </li>
+        </ul>
+      </div>
+
+      <div class="glide__arrows" data-glide-el="controls">
+        <span class="glide__arrow glide__arrow--left" data-glide-dir="<"><img src="static/images/arrow-left-circle-fill.svg"/></span>
+        <span class="glide__arrow glide__arrow--right" data-glide-dir=">"><img src="static/images/arrow-right-circle-fill.svg"/></span>
+      </div>
+      <div class="glide__bullets" data-glide-el="controls[nav]">
+        <span class="glide__bullet" data-glide-dir="=0"></span>
+        <span class="glide__bullet" data-glide-dir="=1"></span>
+        <span class="glide__bullet" data-glide-dir="=2"></span>
+        <span class="glide__bullet" data-glide-dir="=3"></span>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- End Glider -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths" style="width: 100%;">
+        <h2 class="title is-3 hr-lines">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Video editing is an emerging task, in which most current methods adopt the pre-trained text-to-image (T2I) diffusion model to edit the source video in a zero-shot manner. Despite extensive efforts, maintaining the temporal consistency of edited videos remains challenging due to the lack of temporal constraints in the regular T2I diffusion model. To address this issue, we propose COrrespondence-guided Video Editing (COVE), leveraging the inherent diffusion feature correspondence to achieve high-quality and consistent video editing. Specifically, we propose an efficient sliding-window-based strategy to calculate the similarity among tokens in the diffusion features of source videos, identifying the tokens with high correspondence across frames. During the inversion and denoising process, we sample the tokens in noisy latent based on the correspondence and then perform self-attention within them. To save GPU memory usage and accelerate the editing process, we further introduce the temporal-dimensional token merging strategy, which can effectively reduce redundancy. COVE can be seamlessly integrated into the pre-trained T2I diffusion model without the need for extra training or optimization. Extensive experiment results demonstrate that COVE achieves the start-of-the-art performance in various video editing scenarios, outperforming existing methods both quantitatively and qualitatively.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Paper poster -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-">
+          <h2 class="title is-3 hr-lines">Method Overview</h2>
+          <div class="content has-text-justified">
+        
+      <table width="800" border="0">
+        <tbody>
+          <tr>
+            <td colspan="3">
+              <p>
+                We propose the efficient sliding-window-based strategy for calculating the correspondence relationship among tokens in the diffusion feature of the source video. During the inversion and denoising process, the tokens are sampled based on their correspondence relationship. Through the self-attention among the corresponded tokens across frames, the quality and temporal consistency of edited videos are both significantly enhanced.</p>
+            </td>
+          </tr>
+        
+          <img src="static/images/overview.jpg" alt="model_overview" style="width: 75%; display: block; margin: auto;">
+        </tbody>
+      </table>
+      </div>
+      </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-">
+          <h2 class="title is-3 hr-lines">Correspondence Calculation</h2>
+          <div class="content has-text-justified">
+        
+      <table width="800" border="0">
+        <tbody>
+          <tr>
+            <td colspan="3">
+              <p>
+                </p>
+            </td>
+          </tr>
+        
+            <img src="static/images/correspondence.jpg" alt="model_overview" style="width: 80%; display: block; margin: auto;">
+        </tbody>
+      </table>
+      </div>
+      </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-">
+          <h2 class="title is-3 hr-lines">Experiment Results</h2>
+          <div class="content has-text-justified">
+
+            <video width="800" controls style="display: block; margin: auto;">
+              <source src="static/images/COVE_result_demonstration.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p style=" margin-bottom: 20px;"> </p>
+
+            <p style=" margin-bottom: 20px;">COVE can effectively handle various types of prompts, generating high-quality videos. For both global editing (e.g., style transferring and background editing) and local editing (e.g., modifying the appearance of the subject), COVE demonstrates outstanding performance. </p>
+            <p style=" margin-bottom: 20px;">(We are still refining this homepage. More experiment results will be added in the future.) </p>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code> @article{wang2024cove,
+        title={COVE: Unleashing the Diffusion Feature Correspondence for Consistent Video Editing},
+        author={Wang, Jiangshan and Ma, Yue and Guo, Jiayi and Xiao, Yicheng and Huang, Gao and Li, Xiu},
+        journal={arXiv preprint arXiv:2406.08850},
+        year={2024}
+      }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+ 
+</section>
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+    <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+        const videoWrappers = document.querySelectorAll('.video-wrapper');
+      
+        videoWrappers.forEach(wrapper => {
+          const defaultVideo = wrapper.querySelector('.default-video');
+          const aspectRatio = defaultVideo.videoWidth / defaultVideo.videoHeight;
+          const height = wrapper.offsetWidth / aspectRatio;
+      
+          wrapper.style.height = `${height}px`;
+      
+          wrapper.addEventListener('mouseenter', () => {
+            defaultVideo.pause();
+            hoverVideo.play();
+          });
+      
+          wrapper.addEventListener('mouseleave', () => {
+            defaultVideo.play();
+            hoverVideo.pause();
+          });
+        });
+      }); 
+      $(document).ready(function() {
+        var carouselItems = $('.carousel .item');
+        var numItems = carouselItems.length;
+        var numVideos = 5;
+        var currentIndex = 0;
+    
+        $('.carousel').on('click', function() {
+          currentIndex++;
+          if (currentIndex + numVideos <= numItems) {
+            carouselItems.removeClass('active');
+            carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+          } else {
+            currentIndex = 0;
+            carouselItems.removeClass('active');
+            carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+          }
+        });
+    
+        carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+      });
+    </script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+    extensions: ["tex2jax.js"],
+    "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] },
+    tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+    TeX: { noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } },
+    messageStyle: "none"
+  });
+  </script>    
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+
+
+
+<script src="static/js/glide.js"></script>
+
+<script>
+    glide = new Glide('.glide', {
+      type: "carousel",
+      perView: 1.75,
+      focusAt: "center",
+      autoplay: 17500,
+      hoverpause: true
+    }).mount();
+    let video_num = 4;
+    glide.on('run', () => {
+      var index = glide.index;
+      for(var i = 0; i < video_num; i++) {
+        if(i == index) {
+          var active_videos = document.getElementsByClassName('teaser-video-' + i);
+          for(var j = 0; j < active_videos.length; j++) {
+            var video_ele = active_videos[j];
+            var isPlaying = video_ele.currentTime > 0 && !video_ele.paused && !video_ele.ended 
+              && video_ele.readyState > video_ele.HAVE_CURRENT_DATA;
+
+            if (!isPlaying) {
+              video_ele.play();
+            }
+            video_ele.load();
+            video_ele.currentTime = 0;
+            video_ele.play();
+          }
+        } else {
+          var inactive_videos = document.getElementsByClassName('teaser-video-' + i);
+          for(var j = 0; j < inactive_videos.length; j++) {
+            inactive_videos[j].pause(); 
+          }
+        }
+      }
+    });
+</script>
+
+<a href="https://clustrmaps.com/site/1bxp4"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=PE_z3gNvij1p2tNyV6RHW2Jid4QgZXMj1Nq8DkW0Yo0&cl=ffffff" width="0px"/></a>
+  </body>
+  </html>

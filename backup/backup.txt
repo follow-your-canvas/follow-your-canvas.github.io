@@ -1,0 +1,701 @@
+<!--End paper poster -->
+
+<!-- Main Videos-->
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-">
+          <h2 class="title is-3 hr-lines">COVE Editing Results</h2>
+          <div style="display: flex;margin-top: 1rem;">
+            <div class="column">
+              <p class="prompt-input"> Input Video </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "An ancient Egyptian pharaoh is typing" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A medieval knight" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A zombie is typing" </p>
+            </div>
+          </div>
+          <div style="display: flex;">
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/Fig1-teaser/typing/typing_source-new.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/Fig1-teaser/typing/egyptian.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extra/candidates/new/typing/knight.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/Fig1-teaser/typing/zombie_typing.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+          </div>
+<!--  -->
+          <div style="display: flex;margin-top: 1rem;">
+            <div class="column">
+              <p class="prompt-input"> Input Video </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A dinosaur" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A black panther" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A shiny silver robotic wolf, futuristic" </p>
+            </div>
+          </div>
+          <div style="display: flex;">
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/Fig1-teaser/wolf/wolf_source-new.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/Fig1-teaser/wolf/a_dinosaur.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="static/videos/wolf/a_black_panther.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extra/candidates/new/wolf/shiny.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+          </div>
+<!--  -->
+          <div style="display: flex;margin-top: 1rem;">
+            <div class="column">
+              <p class="prompt-input"> Input Video </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "White cupcakes, moving on the table" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "Swarovski blue crystal train on the railway track" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A train moving on the railway track in autumn, maple leaves" </p>
+            </div>
+          </div>
+          <div style="display: flex;">
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="static/videos/train_main/source.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="static/videos/train_main/white-cupcakes,-moving-on-the-table_cstart-0.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="static/videos/train_main/swarovski-blue-crystal-train-on-the-railway-track_cstart-0.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="static/videos/train_main/a-train-moving-on-the-railway-track-in-autumn,-maple-leaves_cstart-0.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+          </div>
+<!--  -->
+          <div style="display: flex;margin-top: 1rem;">
+            <div class="column">
+              <p class="prompt-input"> Input Video </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "Swarovski blue crystal stones falling down sequentially" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "Crochet boxes, falling down sequentially" </p>
+            </div>
+          </div>
+          <div style="display: flex;">
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extra/candidates/new/dominos/source-new.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extra/candidates/new/dominos/swarovski2.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extra/candidates/new/dominos/crochet.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+          </div>
+<!--  -->
+          <div style="display: flex;margin-top: 1rem;">
+            <div class="column">
+              <p class="prompt-input"> Input Video </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "Swarovski blue crystal swan" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "Crochet swan" </p>
+            </div>
+          </div>
+          <div style="display: flex;">
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extra/candidates/new/blackswan/source-new.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extra/candidates/new/blackswan/swarovski.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extra/candidates/new/blackswan/crochet.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+          </div>
+<!--  -->
+          <div style="display: flex;margin-top: 1rem;">
+            <div class="column">
+              <p class="prompt-input"> Input Video </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A firefighter is stretching" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "Watercolor style" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A zombie is stretching" </p>
+            </div>
+          </div>
+          <div style="display: flex;">
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/Fig6-main/woman-stretching/original.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/Fig6-main/woman-stretching/firefighter.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/Fig6-main/woman-stretching/watercolor.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extra/zombie-stretch.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+          </div>
+<!--  -->
+          <div style="display: flex;margin-top: 1rem;">
+            <div class="column">
+              <p class="prompt-input"> Input Video </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A jeep moving in the grassy field" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A spaceship is moving throught the milky way" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "Van gogh style" </p>
+            </div>
+          </div>
+          <div style="display: flex;">
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/Fig6-main/boat/boat.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/Fig6-main/boat/jeep.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/Fig6-main/boat/spaceship.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extra/vangogh.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+          </div>
+<!--  -->
+          <div style="display: flex;margin-top: 1rem;">
+            <div class="column">
+              <p class="prompt-input"> Input Video </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A tractor" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "Switzerland SBB CFF FFS train" </p>
+            </div>
+            <div class="column">
+              <p class="prompt"> "A firetruck" </p>
+            </div>
+          </div>
+          <div style="display: flex;">
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extreme-shape/source.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extreme-shape/tractor.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extreme-shape/sbb.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+            <div class="column">
+              <video preload="auto"poster="" id="video11" autoplay controls muted loop width="90%">
+                <!-- Your video preload="auto"file here -->
+                <source src="supp/assets/extreme-shape/firetruck.mp4"
+                type="video/mp4">
+              </video>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Main Videos-->
+
+
+<!-- video preload="auto"carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column custom-width">
+          <h2 class="title is-3  hr-lines">Comparisons</h2>
+          <div class="content has-text-justified">
+            <div class="caption-container" style="width: 1200px; padding-left: 50px">
+              
+              <!-- Add remaining captions here  -->
+            </div>
+          <div class="caption" style="display: flex;font-size:12.5px">
+            <div class="column"> <p>Input video</p> </div> 
+            <div class="column"><p>RAVE (Ours)</p> </div> 
+            <div class="column"><p>RAVE w/o Shuffle</p> </div> 
+            <div class="column"> <p>Tokenflow  (<a style="color: blue;" href="#ref-tokenflow">[1]</a>)</p></div> 
+            <div class="column"> <p>Fatezero  (<a style="color: blue;" href="#ref-fatezero">[2]</a>)</p></div> 
+            <div class="column"><p>Rerender  (<a style="color: blue;" href="#ref-rerender">[3]</a>)</p> </div> 
+            <div class="column"> <p>Text2Video-Zero  (<a style="color: blue;" href="#ref-t2v">[4]</a>)</p></div> 
+            <div class="column"><p>Pix2Video  (<a style="color: blue;" href="#ref-p2v">[5]</a>)</p></div> 
+          </div>
+           <!-- Add caption element for each video preload="auto"-->
+          <video preload="auto"poster="" id="video11" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/car-turn/source-new.mp4"
+            type="video/mp4">
+          </video>
+          <video preload="auto"poster="" id="video12" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/car-turn/rave.mp4"
+            type="video/mp4">
+          </video>
+          
+          <video preload="auto"poster="" id="video13" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/car-turn/no-shuffle.mp4"
+            type="video/mp4">
+          </video>
+          
+          <video preload="auto"poster="" id="video14" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/car-turn/tokenflow.mp4"
+            type="video/mp4">
+          </video>
+          
+          <video preload="auto"poster="" id="video15" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/car-turn/fatezero.mp4"
+            type="video/mp4">
+          </video>
+          
+          <video preload="auto"poster="" id="video16" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/car-turn/rerender.mp4"
+            type="video/mp4">
+          </video>
+          <video preload="auto"poster="" id="video25" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/car-turn/text2video.mp4"
+            type="video/mp4">
+          </video>
+          <video preload="auto"poster="" id="video25" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/car-turn/pix2video.mp4"
+            type="video/mp4">
+          </video>
+
+          <div class="caption" style="display: flex;margin-top:1rem;font-size:12.5px">
+            <div class="column"> <p>Input video</p> </div> 
+            <div class="column"> <p>RAVE (Ours)</p> </div> 
+            <div class="column"> <p>Flatten (<a style="color: blue;" href="#ref-flatten">[6]</a>)</p> </div> 
+            <div class="column"> <p>Tokenflow (<a style="color: blue;" href="#ref-tokenflow">[1]</a>)</p></div> 
+            <div class="column"> <p>Fatezero (<a style="color: blue;" href="#ref-fatezero">[2]</a>)</p></div> 
+            <div class="column"> <p>Tune-A-Video (<a style="color: blue;" href="#ref-tav">[7]</a>)</p> </div> 
+            <div class="column"> <p>Text2Video-Zero (<a style="color: blue;" href="#ref-t2v">[4]</a>)</p></div> 
+            <div class="column"> <p>ControlVideo (<a style="color: blue;" href="#ref-control">[8]</a>)</p></div>            
+          </div>
+          <video preload="auto"poster="" id="video1" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/wood-truck/truck_source-new.mp4"
+            type="video/mp4">
+          </video>
+          
+          <video preload="auto"poster="" id="video21" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/wood-truck/rave.mp4"
+            type="video/mp4">
+          </video>
+          
+          <video preload="auto"poster="" id="video22" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/wood-truck/truck_flatten.mp4"
+            type="video/mp4">
+          </video>
+          
+          <video preload="auto"poster="" id="video23" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/wood-truck/truck_tokenflow.mp4"
+            type="video/mp4">
+          </video>
+          
+          <video preload="auto"poster="" id="video24" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/wood-truck/truck_fatezero.mp4"
+            type="video/mp4">
+          </video>
+          
+          <video preload="auto"poster="" id="video25" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/wood-truck/truck_tuneavideo.mp4"
+            type="video/mp4">
+          </video>
+          <video preload="auto"poster="" id="video25" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/wood-truck/truck_t2vzero.mp4"
+            type="video/mp4">
+          </video>
+          <video preload="auto"poster="" id="video25" autoplay controls muted loop style="max-width:12%">
+            <!-- Your video preload="auto"file here -->
+            <source src="supp/assets/comparison/wood-truck/truck_controlvideo.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video preload="auto"carousel -->
+
+<!-- Dataset Videos -->
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3  hr-lines">Examples From Dataset</h2>
+          <p> To view the original video, hover your mouse over the video.</p>
+          <h3 style="font-size: 1.5rem;text-align: center;font-weight:800;margin-bottom:0">Type of Edits</h2>
+          <hr style="width: 40%;left: 30%;"/>
+          <div class="content has-text-justified" style="display: contents;">
+          
+          <div style="display: flex; font-size: larger;margin-top: 1rem;font-weight:600"> 
+            <div class="column" style="width: 19.5%;">
+              <p> Local Editing </p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p> Visual Style Editing </p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p> Background Editing </p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p>Shape/Attribute Editing</p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p>Extreme Shape Editing</p>
+            </div>
+          </div>
+
+          <div style="display: flex;"> 
+            <div class="column" style="width: 19.5%;">
+              <div class="video-wrapper" style="width: 100%;">
+                <video preload="auto"class="hover-video" src="static/videos/dataset/typing_source-new.mp4" preload="metadata" autoplay loop muted> </video>
+                <video preload="auto"class="default-video" src="static/videos/dataset/glitter.mp4" preload="metadata" autoplay controls loop muted></video>
+              </div>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <div class="video-wrapper" style="width: 100%;">
+                <video preload="auto"class="hover-video" src="static/videos/dataset/source-new.mp4" preload="metadata" autoplay loop muted> </video>
+                <video preload="auto"class="default-video" src="static/videos/dataset/watercolor-new.mp4" preload="metadata" autoplay controls loop muted></video>
+              </div>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <div class="video-wrapper" style="width: 100%;">
+                <video preload="auto"class="hover-video" src="static/videos/dataset/monkey-original.mp4" preload="metadata" autoplay loop muted> </video>
+                <video preload="auto"class="default-video" src="static/videos/dataset/coast.mp4" preload="metadata" autoplay controls loop muted></video>
+              </div>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <div class="video-wrapper" style="width: 100%;">
+                <video preload="auto"class="hover-video" src="supp/assets/Fig1-teaser/wolf/wolf_source-new.mp4" preload="metadata" autoplay loop muted> </video>
+                <video preload="auto"class="default-video" src="supp/assets/Fig1-teaser/wolf/a_dinosaur.mp4" preload="metadata" autoplay controls loop muted></video>
+              </div>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <div class="video-wrapper" style="width: 100%;">
+                <video preload="auto"class="hover-video" src="supp/assets/extreme-shape/source.mp4" preload="metadata" autoplay loop muted> </video>
+                <video preload="auto"class="default-video" src="supp/assets/extreme-shape/tractor.mp4" preload="metadata" autoplay controls loop muted></video>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; font-size: larger;font-weight:400"> 
+            <div class="column" style="width: 19.5%;">
+              <p class="prompt">"A man wearing a glitter jacket is typing"</p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p class="prompt">"Watercolor style"</p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p class="prompt">"A monkey is playing on the coast"</p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p class="prompt">"A dinosaur"</p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p class="prompt">"A tractor"</p>
+            </div>
+          </div>
+
+          <!--  -->
+          <!--  -->
+          <!--  -->
+
+          <h3 style="font-size: 1.5rem;text-align: center;font-weight:800;margin-bottom:0">Editing on Various Types of Motions</h2>
+          <hr style="width: 40%;left: 30%;"/>
+          <div class="content has-text-justified" style="display: contents;">
+          
+          <div style="display: flex; font-size: larger;margin-top: 1rem;font-weight:600"> 
+            <div class="column" style="width: 19.5%;">
+              <p> Exo-Motion </p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p> Ego-Motion </p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p> Ego-Exo Motion </p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p>Occlusions</p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p>Multiple Objects with Appearance/Disappearance</p>
+            </div>
+          </div>
+
+          <div style="display: flex;"> 
+            <div class="column" style="width: 19.5%;">
+              <div class="video-wrapper" style="width: 100%;">
+                <video preload="auto"class="hover-video" src="supp/assets/extra/candidates/new/blackswan/source-new.mp4" preload="metadata" autoplay loop muted> </video>
+                <video preload="auto"class="default-video" src="supp/assets/extra/candidates/new/blackswan/crochet.mp4" preload="metadata" autoplay controls loop muted></video>
+              </div>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <div class="video-wrapper" style="width: 100%;">
+                <video preload="auto"class="hover-video" src="supp/assets/Fig6-main/watchtower/watchtower.mp4" preload="metadata" autoplay loop muted> </video>
+                <video preload="auto"class="default-video" src="supp/assets/Fig6-main/watchtower/anime.mp4" preload="metadata" autoplay controls loop muted></video>
+              </div>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <div class="video-wrapper" style="width: 100%;">
+                <video preload="auto"class="hover-video" src="supp/assets/comparison/wood-truck/truck_source-new.mp4" preload="metadata" autoplay loop muted> </video>
+                <video preload="auto"class="default-video" src="supp/assets/comparison/wood-truck/rave.mp4" preload="metadata" autoplay controls loop muted></video>
+              </div>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <div class="video-wrapper" style="width: 100%;">
+                <video preload="auto"class="hover-video" src="supp/assets/user-study/cheetah/source-new.mp4" preload="metadata" autoplay loop muted> </video>
+                <video preload="auto"class="default-video" src="supp/assets/user-study/cheetah/rave.mp4" preload="metadata" autoplay controls loop muted></video>
+              </div>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <div class="video-wrapper" style="width: 100%;">
+                <video preload="auto"class="hover-video" src="static/videos/fish_group/source-new-new.mp4" preload="metadata" autoplay loop muted> </video>
+                <video preload="auto"class="default-video" src="static/videos/fish_group/whales-new.mp4" preload="metadata" autoplay controls loop muted></video>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; font-size: larger;font-weight:400"> 
+            <div class="column" style="width: 19.5%;">
+              <p class="prompt"> "Crochet swan" </p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p class="prompt"> "Anime style" </p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p class="prompt"> "Wooden trucks drive on a racetrack" </p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p class="prompt">"A cheetah is moving"</p>
+            </div>
+            <div class="column" style="width: 19.5%;">
+              <p class="prompt">"whales are swimming"</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Dataset Videos -->
+
+
+
+
+
+
+
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column custom-width">
+          <!-- <h2 class="title is-3"></h2> -->
+          <div class="content has-text-justified">
+            <p>
+              <a name="ref-tokenflow" id="ref-tokenflow"></a>
+              [1] Michal Geyer, Omer Bar-Tal, Shai Bagon, and Tali Dekel. Tokenflow: Consistent diffusion features for consistent video editing. arXiv preprint arXiv:2307.10373, 2023.
+            </p>
+            <p>
+              <a name="ref-fatezero" id="ref-fatezero"></a>
+              [2] Chenyang QI, Xiaodong Cun, Yong Zhang, Chenyang Lei, Xintao Wang, Ying Shan, and Qifeng Chen. Fatezero: Fusing attentions for zero-shot text-based video editing. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 15932–15942, 2023.
+            </p>
+            <p>
+              <a name="ref-rerender" id="ref-rerender"></a>
+              [3] Shuai Yang, Yifan Zhou, Ziwei Liu, , and Chen Change Loy. Rerender a video: Zero-shot text-guided video-to-video translation. In ACM SIGGRAPH Asia Conference Proceedings, 2023.
+            </p>
+            <p>
+              <a name="ref-t2v" id="ref-t2v"></a>
+              [4] Levon Khachatryan, Andranik Movsisyan, Vahram Tadevosyan, Roberto Henschel, Zhangyang Wang, Shant Navasardyan, and Humphrey Shi. Text2video-zero: Text-to-image diffusion models are zero-shot video generators. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 15954–15964, 2023.
+            </p>
+            <p>
+              <a name="ref-p2v" id="ref-p2v"></a>
+              [5] Duygu Ceylan, Chun-Hao P Huang, and Niloy J Mitra. Pix2video: Video editing using image diffusion. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 23206–23217, 2023.
+            </p>
+            <p>
+              <a name="ref-flatten" id="ref-flatten"></a>
+              [6] Yuren Cong, Mengmeng Xu, Christian Simon, Shoufa Chen, Jiawei Ren, Yanping Xie, Juan-Manuel Perez-Rua, Bodo Rosenhahn, Tao Xiang, and Sen He. Flatten: optical flow-guided attention for consistent text-to-video editing. arXiv preprint arXiv:2310.05922, 2023.
+            </p>
+            <p>
+              <a name="ref-tav" id="ref-tav"></a>
+              [7] Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Stan Weixian Lei, Yuchao Gu, Yufei Shi, Wynne Hsu, Ying Shan, Xiaohu Qie, and Mike Zheng Shou. Tune-a-video: One-shot tuning of image diffusion models for text-to-video generation. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 7623–7633, 2023.
+            </p>
+            <p>
+              <a name="ref-control" id="ref-control"></a>
+              [8] Yabo Zhang, Yuxiang Wei, Dongsheng Jiang, Xiaopeng Zhang, Wangmeng Zuo, and Qi Tian. Controlvideo: Training-free controllable text-to-video generation. arXiv preprint arXiv:2305.13077, 2023
+            </p>
+        </div>
+      </div>
+    </div> 
